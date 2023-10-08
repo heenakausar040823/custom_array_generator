@@ -1,0 +1,98 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@100&family=Tulpen+One&family=Young+Serif&display=swap');
+/* 
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    color: #9E9FA5;
+}
+
+#heading{
+    margin-top: 30px;
+    background: #0d172a;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    color: #FFC6AC;
+    box-shadow: 0px 1px 2px rgba(20, 21, 22, 0.25);
+}
+#input, #buttons, #output{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#output_card{
+    background: #0d172a;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: #FFC6AC;
+    font-size: 30px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 2px rgba(20, 21, 22, 0.25);
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 20px 20px ;
+}
+input {
+   width: 40%;
+   height: 30px;
+   border: none;
+   padding: 2px;
+   font-weight: bold;
+   font-size: 25px;
+   margin: 0.5rem;
+   outline: none;
+}
+.container{
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(20, 21, 22, 0.25);
+    width: 80%;
+    height: 30%;
+}
+.actions{
+    background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  margin: .5rem;
+  text-align: center;  
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(20, 21, 22, 0.25);
+}
+.actions:hover {
+  background-color: #1e293b;
+  color: #FFC6AC;
+}
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: right;
+  border-top: 1px solid white;
+}
+
